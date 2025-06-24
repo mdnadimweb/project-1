@@ -11,6 +11,8 @@ function Navbar() {
             <li>LOCATION</li>
             <li>ABOUT</li>
             <li>CONTACT</li>
+            <li>service</li>
+            <li>Logo</li>
           </ul>
         </div>
       </nav>
