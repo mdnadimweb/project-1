@@ -1,3 +1,4 @@
+import './App.css';
 function Navbar() {
   return (
     <>
@@ -11,10 +12,12 @@ function Navbar() {
             <li>LOCATION</li>
             <li>ABOUT</li>
             <li>CONTACT</li>
-            <li>service</li>
-            <li>Logo</li>
           </ul>
+
+        
         </div>
+
+          <button>Login</button>
       </nav>
     </>
   );
