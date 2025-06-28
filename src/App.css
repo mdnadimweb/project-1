@@ -46,3 +46,70 @@ button {
   color: white;
   font-weight: 500;
 }
+
+.container{
+
+ margin: auto;
+ max-width: 1280px;
+}
+
+.hero {
+
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+
+}
+
+.hero_content{
+
+  margin-right: 50px;
+}
+
+.hero_content h1{
+
+  font-weight:800;
+  font-size: 108px;
+  line-height: 102px ;
+}
+
+.hero_content p{
+
+   font-weight:600;
+  color:var(--gray) ;  
+}
+
+.hero_button{
+
+  margin-top: 10px ;
+  display: flex;
+  gap: 40px;
+}
+
+.category{
+
+  background: transparent;
+  color: rgb(68, 68, 68);
+  border: 1px solid rgb(68, 68, 68);
+
+}
+
+.shopping_card{
+
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.shopping_logo{
+
+  display: flex;
+  gap:16px ;
+}
+
+.hero_content{
+
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
